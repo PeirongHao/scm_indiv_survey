@@ -29,13 +29,13 @@ The data application examines the impact of Philadelphia's sweetened beverage ta
 
 ### Data Application
 
-- `data_preprocess.R`: Filters data from selected districts (2007–2017), recodes variables, creates summary statistics, and produces trend plots for soda consumption.
-- `run_scm.R`: Calculates district-level averages with/without survey weights, fits SCM, and outputs treatment effect estimates and corresponding p-values.
+- `data_preprocess.R`: filters data from selected districts (2007–2017), recodes variables, creates summary statistics, and produces trend plots for soda consumption.
+- `run_scm.R`: calculates district-level averages with/without survey weights, fits SCM, and outputs treatment effect estimates and corresponding p-values.
 
 ### Simulation Study
 
-- `main.R`: Defines parameters and runs all simulations.
-- `data_gen.R`: Generates individual-level data based on a linear factor model.
-- `apply_scm.R`: Computes region-level averages and applies SCM.
-- `sim_func.R`: Executes iterative simulations across various parameter configurations.
-- `visual_func.R`: Produces plots and tables summarizing simulation results.
+- `main.R`: defines parameters and runs all simulations.
+- `data_gen.R`: generates individual-level data based on a linear factor model.
+- `apply_scm.R`: computes region-level averages and applies SCM.
+- `sim_func.R`: executes iterative simulations across various parameter configurations.
+- `visual_func.R`: produces plots and tables summarizing simulation results.
